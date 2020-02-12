@@ -1,0 +1,35 @@
+2020-01-16 23:33:17.890  INFO Abhishek-PC --- [           main] c.I.a.IsmisBackendApplication            : Starting IsmisBackendApplication v0.0.1-SNAPSHOT on Abhishek-PC with PID 1612 (E:\IS-MIS\IS-MIS-Back_End\ISMIS_Backend\target\ISMIS_Backend-0.0.1-SNAPSHOT.war started by User in E:\IS-MIS\IS-MIS-Back_End\ISMIS_Backend\target)
+2020-01-16 23:33:17.899  INFO Abhishek-PC --- [           main] c.I.a.IsmisBackendApplication            : No active profile set, falling back to default profiles: default
+2020-01-16 23:33:19.134  INFO Abhishek-PC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 23:33:19.157  INFO Abhishek-PC --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-16 23:33:19.160  INFO Abhishek-PC --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-01-16 23:33:19.162  INFO Abhishek-PC --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-16 23:33:20.213  INFO Abhishek-PC --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-16 23:33:20.214  INFO Abhishek-PC --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2251 ms
+2020-01-16 23:33:20.656  INFO Abhishek-PC --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 541af992-882a-49ed-95c7-3f2aafc813bc
+
+2020-01-16 23:33:20.750  INFO Abhishek-PC --- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d8539de, org.springframework.security.web.context.SecurityContextPersistenceFilter@2234078, org.springframework.security.web.header.HeaderWriterFilter@464a4442, org.springframework.security.web.authentication.logout.LogoutFilter@64e1dd11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4642b71d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aefae67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3eba57a7, org.springframework.security.web.session.SessionManagementFilter@779de014, org.springframework.security.web.access.ExceptionTranslationFilter@6eafb10e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a933be2]
+2020-01-16 23:33:20.879  INFO Abhishek-PC --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-01-16 23:33:21.057  INFO Abhishek-PC --- [           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+2020-01-16 23:33:21.058  INFO Abhishek-PC --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-01-16 23:33:21.066  INFO Abhishek-PC --- [           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+2020-01-16 23:33:21.067  INFO Abhishek-PC --- [           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+2020-01-16 23:33:21.071  INFO Abhishek-PC --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-16 23:33:21.078 ERROR Abhishek-PC --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
