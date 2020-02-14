@@ -41,7 +41,7 @@ public class UserAction {
 
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String homePage(HttpServletRequest req, HttpServletResponse res) throws SQLException {
-		System.out.println("hlookj");
+		//System.out.println("hlookj");
 		return "Welcome to IS-MIS Home o ss";
 	}
 	
