@@ -1,0 +1,24 @@
+2020-02-17 12:48:26.838  INFO Abhishek-PC --- [           main] c.I.a.IsmisBackendApplication            : Starting IsmisBackendApplication on Abhishek-PC with PID 3456 (E:\GIT_ISMIS\IS-MIS-Back_End\ISMIS_Backend\target\classes started by User in E:\GIT_ISMIS\IS-MIS-Back_End\ISMIS_Backend)
+2020-02-17 12:48:26.855  INFO Abhishek-PC --- [           main] c.I.a.IsmisBackendApplication            : No active profile set, falling back to default profiles: default
+2020-02-17 12:48:27.767  INFO Abhishek-PC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-02-17 12:48:27.781  INFO Abhishek-PC --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-17 12:48:27.781  INFO Abhishek-PC --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-02-17 12:48:27.782  INFO Abhishek-PC --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-17 12:48:27.837  INFO Abhishek-PC --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-02-17 12:48:27.837  INFO Abhishek-PC --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 860 ms
+2020-02-17 12:48:28.125  INFO Abhishek-PC --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b220035c-a62b-4f20-b2ac-6f1491ee17ba
+
+2020-02-17 12:48:28.179  INFO Abhishek-PC --- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25ffd826, org.springframework.security.web.context.SecurityContextPersistenceFilter@4bc59b27, org.springframework.security.web.header.HeaderWriterFilter@574059d5, org.springframework.security.web.authentication.logout.LogoutFilter@10244722, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76ff68c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6adc5b9c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29896529, org.springframework.security.web.session.SessionManagementFilter@8a6631b, org.springframework.security.web.access.ExceptionTranslationFilter@5a1f778, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@671d03bb]
+2020-02-17 12:48:28.367  INFO Abhishek-PC --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-02-17 12:48:28.385  INFO Abhishek-PC --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-17 12:48:28.388  INFO Abhishek-PC --- [           main] c.I.a.IsmisBackendApplication            : Started IsmisBackendApplication in 1.828 seconds (JVM running for 3.98)
+2020-02-17 12:48:48.234  INFO Abhishek-PC --- [nio-8080-exec-3] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-17 12:48:48.234  INFO Abhishek-PC --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-02-17 12:48:48.239  INFO Abhishek-PC --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2020-02-17 12:48:48.273  INFO Abhishek-PC --- [nio-8080-exec-3] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-02-17 12:48:51.493  INFO Abhishek-PC --- [nio-8080-exec-3] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-02-17 12:49:36.402  INFO Abhishek-PC --- [on(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-02-17 12:49:36.405  INFO Abhishek-PC --- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-02-17 12:49:36.411  INFO Abhishek-PC --- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
